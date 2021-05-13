@@ -47,7 +47,7 @@ public class Payment implements Serializable {
 	public double getTotal() {
 		return days * dailyIncome;
 	}
-	
+	// Cada método que eu criar retornará como atributo no Json
 	public double getTotalPorSemana() {
 		return (days * dailyIncome)/5;
 	}
